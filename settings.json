@@ -16,15 +16,8 @@
     "window.menuBarVisibility": "compact",
     "files.autoSave": "afterDelay",
     "editor.fontFamily": "SF Mono, monospace, Cascadia Code, Consolas, 'Courier New'",
-    "xml.server.binary.trustedHashes": [
-        "98a0723d20f9c21f810457309c42597714fa3f570ecb2cf6cdf592c8a41e2a6b"
-    ],
     "github.copilot.enable": {
         "*": true,
-        "plaintext": true,
-        "markdown": false,
-        "scminput": false,
-        "yaml": false
     },
     "githubPullRequests.pullBranch": "never",
     "workbench.colorCustomizations": {},
