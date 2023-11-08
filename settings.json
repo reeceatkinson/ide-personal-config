@@ -1,7 +1,7 @@
 {
     "editor.inlineSuggest.enabled": true,
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.colorTheme": "Moonlight II Italic",
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
     "editor.cursorSmoothCaretAnimation": "on",
     "git.autofetch": true,
     "[html]": {
@@ -25,5 +25,14 @@
     "editor.minimap.enabled": false,
     "symbols.hidesExplorerArrows": false,
     "terminal.integrated.smoothScrolling": true,
-    "editor.smoothScrolling": true
+    "editor.smoothScrolling": true,
+    "figma.autocompleteBlocks": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "aws.suppressPrompts": {
+        "codeWhispererNewWelcomeMessage": true
+    }
 }
