@@ -11,3 +11,5 @@ Copy `settings.json` to:
 - [JetBrains Mono font](https://www.jetbrains.com/lp/mono/)
 - [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
 - [Horizon Blue](https://marketplace.visualstudio.com/items?itemName=reece.horizon-blue)
+
+![image](https://github.com/user-attachments/assets/f2dc112a-1e22-427c-b762-32dc5e8221be)
