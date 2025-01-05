@@ -1,38 +1,61 @@
 {
-    "editor.inlineSuggest.enabled": true,
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "git.autofetch": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "liveServer.settings.donotVerifyTags": true,
-    "window.commandCenter": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "symbols",
-    "window.menuBarVisibility": "compact",
-    "files.autoSave": "afterDelay",
-    "editor.fontFamily": "SF Mono, monospace, Cascadia Code, Consolas, 'Courier New'",
-    "github.copilot.enable": {
-        "*": true,
-    },
-    "githubPullRequests.pullBranch": "never",
-    "workbench.colorCustomizations": {},
-    "redhat.telemetry.enabled": true,
-    "editor.minimap.enabled": false,
-    "symbols.hidesExplorerArrows": false,
-    "terminal.integrated.smoothScrolling": true,
-    "editor.smoothScrolling": true,
-    "figma.autocompleteBlocks": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "githubPullRequests.createOnPublishBranch": "never",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "aws.suppressPrompts": {
-        "codeWhispererNewWelcomeMessage": true
-    }
+  /* My VS Code/Cursor preferences */
+
+  // Import settings
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // Save actions
+  "files.autoSave": "afterDelay",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Styling prefs
+  "editor.fontFamily": "JetBrains Mono, SF Mono, monospace, Cascadia Code, Consolas, 'Courier New'",
+  "editor.fontSize": 13.5,
+  "editor.minimap.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.smoothScrolling": true,
+  "symbols.hidesExplorerArrows": false,
+  "window.commandCenter": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorTheme": "Horizon Blue",
+  "workbench.colorCustomizations": {
+    "contrastBorder": "#16161C"
+  },
+
+  // Formatting prefs
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Other
+  "git.autofetch": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": false,
+
+  // Cursor/AI specific settings
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.chat.smoothStreaming": true,
+  "cursor.chat.showSuggestedFiles": true,
+  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
+  "editor.inlineSuggest.enabled": true
 }
