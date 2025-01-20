@@ -23,7 +23,6 @@ sanitize_branch_name() {
 }
 
 # Use git fsck to find all stash commits
-
 git fsck --no-reflog | awk '/dangling commit/ {print $3}' | while read -r commit; do
 
     if git show -s --format=%s "$commit" | grep -q "WIP on"; then
