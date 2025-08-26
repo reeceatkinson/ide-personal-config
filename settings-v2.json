@@ -1,0 +1,36 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13.2,
+  "editor.minimap.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.orientation": "vertical",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "symbols",
+  "editor.accessibilitySupport": "off",
+  "files.autoSave": "afterDelay",
+  "parallels-desktop.extension.path": "/Users/reeceatkinson/.parallels-desktop-vscode",
+  "parallels-desktop.git.path": "/usr/bin/git",
+  "parallels-desktop.brew.path": "/opt/homebrew/bin/brew",
+  "parallels-desktop.prlctl.path": "/usr/local/bin/prlctl",
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "update.releaseTrack": "prerelease",
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  "window.commandCenter": true,
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.colorCustomizations": {
+    "contrastBorder": "#2e2e3a"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
